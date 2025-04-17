@@ -1,6 +1,7 @@
 # midterm-exam-0417
 
 # EC2 minikube環境設置流程
+```
 sudo apt update
 sudo apt install -y apt-transport-https ca-certificates curl 
 sudo apt install -y docker.io
@@ -22,3 +23,4 @@ kubectl config view
 kubectl get nodes
 kubectl get pods
 minikube dashboard
+```
